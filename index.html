@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NexoTech · Trazabilidad de activos</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section id="login">
+  <h1>NexoTech · Trazabilidad de activos</h1>
+  <div style="color:var(--mut)">Ingresa con tu usuario y clave</div>
+  <label for="u">Usuario</label><input id="u" autocomplete="username">
+  <label for="p">Clave</label><input id="p" type="password" autocomplete="current-password">
+  <button style="margin-top:14px;width:100%" onclick="doLogin()">Ingresar</button>
+  <div class="err" id="lerr" role="alert"></div>
+  <div class="hint">Cuentas de prueba: admin / admin123 (Admin TI), soporte / soporte123 (Soporte), bodega / bodega123 (Bodega). Se bloquea tras 3 intentos fallidos.</div>
+</section>
+<div id="app"><aside><h2>NexoTech</h2><small id="who"></small><nav id="nav"></nav><button class="sec" style="margin:14px 8px 0" onclick="logout()">Cerrar sesión</button></aside><main id="v"></main></div>
+
+<script src="app.js"></script>
+</body>
+</html>
