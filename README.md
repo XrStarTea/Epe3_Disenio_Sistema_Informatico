@@ -1,12 +1,12 @@
-USUARIOS:
+ROLES Y USUARIOS
 
-# USUARIOS
+## USUARIOS
 - Admin
 - Bodega
 - Soporte
 
   
-# CLAVES
+## CLAVES
 - Admin123
 - Bodega123
 - Soporte123
